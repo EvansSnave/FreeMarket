@@ -1,0 +1,12 @@
+@import '../../../assets/styles/colors';
+
+nav {
+  display: flex;
+  padding: 1vw;
+  background-color: $nav-background-color;
+}
+
+.image-container {
+  width: 5vw;
+  height: 5vw;
+}
