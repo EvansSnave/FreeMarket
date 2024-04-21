@@ -3,19 +3,39 @@
 
 nav {
   display: flex;
-  padding: 1vw;
+  padding: 1vw 15vw;
   background-color: $nav-background-color;
   position: fixed;
   z-index: 20;
+  justify-content: space-between;
   width: 100vw;
-  & div {
+  & .container {
     display: inherit;
     align-items: center;
     gap: 0.5vw;
   }
 }
 
+.title {
+  line-height: 1.5vw;
+}
+
 .image-container {
   width: 1.5vw;
   height: 1.5vw;
+}
+
+.space {
+  width: 100%;
+  height: 4.5vw;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+a:hover {
+  color: $nav-letter-color-hover;
 }

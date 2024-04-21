@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/fonts';
+@import '../../../../assets/styles/colors';
+
+.image-container {
+  height: 29vw;
+  width: 40vw;
+}
+
+.container {
+  background-color: $welcome-background-color;
+  border-radius: 50px;
+  padding: 4vw;
+  padding-bottom: 0;
+  display: flex;
+  gap: 2vw;
+  margin: 1vw 15vw;
+}
+
+.text-container {
+  width: 20vw;
+}
+
+.title {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 1vw;
+  margin: 1vw 0;
+}
