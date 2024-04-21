@@ -1,12 +1,21 @@
 @import '../../../assets/styles/colors';
+@import '../../../assets/styles/fonts';
 
 nav {
   display: flex;
   padding: 1vw;
   background-color: $nav-background-color;
+  position: fixed;
+  z-index: 20;
+  width: 100vw;
+  & div {
+    display: inherit;
+    align-items: center;
+    gap: 0.5vw;
+  }
 }
 
 .image-container {
-  width: 5vw;
-  height: 5vw;
+  width: 1.5vw;
+  height: 1.5vw;
 }
