@@ -1,0 +1,23 @@
+@import '../../../assets/styles/colors';
+
+.image-container {
+  width: 20vw;
+  height: 30vw;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.titles-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.3vw;
+}
+
+.topic {
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.explore {
+  color: $last-font-color;
+}

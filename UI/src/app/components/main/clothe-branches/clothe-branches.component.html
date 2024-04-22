@@ -1,5 +1,5 @@
-<div>
-  @for () {
-    
+<ul>
+  @for (image of images; track $index) {
+    <li class="image-container"><img [ngSrc]="image" fill></li>
   }
-</div>
+</ul>

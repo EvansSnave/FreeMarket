@@ -12,8 +12,8 @@ export class ClotheBranchesComponent implements OnInit {
   images: Array<string>;
 
   constructor() { 
-    this.images = [
-      '../../../../assets/images/H&M-logo.svg', 
+    this.images = [ 
+      '../../../../assets/images/hm.png',
       '../../../../assets/images/Obey-Logo.png', 
       '../../../../assets/images/Shopify-logo.svg', 
       '../../../../assets/images/Lacoste-Logo.png', 

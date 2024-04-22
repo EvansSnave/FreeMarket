@@ -1,0 +1,14 @@
+@import '../../../../assets/styles/colors';
+
+.image-container {
+  width: 5vw;
+  height: 2.5vw;
+}
+
+ul {
+  display: flex;
+  background-color: $secondary-color;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2.5vw 0;
+}

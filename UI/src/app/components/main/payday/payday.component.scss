@@ -1,0 +1,22 @@
+@import '../../../../assets/styles/colors';
+
+.image-container {
+  width: 34vw;
+  height: 36vw;
+}
+
+section {
+  background-color: $payday-color;
+  padding: 0 15vw;
+  display: flex;
+  gap: 3vw;
+}
+
+.title-container {
+  margin: 4vw 0;
+  width: 34vw;
+}
+
+.title {
+  font-size: 4vw;
+}

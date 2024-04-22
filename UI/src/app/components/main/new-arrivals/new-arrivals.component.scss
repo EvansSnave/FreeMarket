@@ -1,0 +1,15 @@
+section {
+  margin: 0.7vw 15vw;
+  margin-bottom: 7vw;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  margin-top: 1.5vw;
+}
+
+.title {
+  font-weight: bolder;
+}
