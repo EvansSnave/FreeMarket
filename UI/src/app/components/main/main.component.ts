@@ -5,7 +5,6 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { PaydayComponent } from './payday/payday.component';
 import { FavouritesComponent } from './favourites/favourites.component';
 import { MobileAppComponent } from './mobile-app/mobile-app.component';
-import { FormComponent } from './form/form.component';
 
 @Component({
   selector: 'app-main',
@@ -17,7 +16,6 @@ import { FormComponent } from './form/form.component';
     PaydayComponent,
     FavouritesComponent, 
     MobileAppComponent,
-    FormComponent
   ],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss']

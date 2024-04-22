@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ButtonComponent } from '../../button/button.component';
+import { ButtonComponent } from '../button/button.component';
 
 @Component({
   selector: 'app-form',
