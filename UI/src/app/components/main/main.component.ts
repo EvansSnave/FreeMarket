@@ -3,6 +3,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ClotheBranchesComponent } from './clothe-branches/clothe-branches.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { PaydayComponent } from './payday/payday.component';
+import { FavouritesComponent } from './favourites/favourites.component';
 
 @Component({
   selector: 'app-main',
@@ -11,7 +12,8 @@ import { PaydayComponent } from './payday/payday.component';
     WelcomeComponent, 
     ClotheBranchesComponent,
     NewArrivalsComponent,
-    PaydayComponent
+    PaydayComponent,
+    FavouritesComponent
   ],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss']
