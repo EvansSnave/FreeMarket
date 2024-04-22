@@ -1,0 +1,42 @@
+@import '../../../assets/styles/colors';
+
+footer {
+  background-color: $footer-background-color;
+  padding: 5vw 15vw;
+  display: flex;
+  gap: 15vw;
+}
+
+.title {
+  color: $tertiary-font-color;
+}
+
+p, a {
+  color: $last-font-color;
+}
+
+.image-container {
+  width: 2vw;
+  height: 2vw;
+}
+
+.social-container {
+  display: flex;
+  gap: 0.5vw;
+  margin-top: 2vw;
+}
+
+.links-container {
+  display: flex;
+  gap: 7vw;
+}
+
+.no-link {
+  color: $tertiary-font-color;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}

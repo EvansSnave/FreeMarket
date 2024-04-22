@@ -4,6 +4,7 @@ import { ClotheBranchesComponent } from './clothe-branches/clothe-branches.compo
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { PaydayComponent } from './payday/payday.component';
 import { FavouritesComponent } from './favourites/favourites.component';
+import { MobileAppComponent } from './mobile-app/mobile-app.component';
 
 @Component({
   selector: 'app-main',
@@ -13,7 +14,8 @@ import { FavouritesComponent } from './favourites/favourites.component';
     ClotheBranchesComponent,
     NewArrivalsComponent,
     PaydayComponent,
-    FavouritesComponent
+    FavouritesComponent, 
+    MobileAppComponent
   ],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss']

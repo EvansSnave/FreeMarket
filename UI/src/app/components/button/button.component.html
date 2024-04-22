@@ -1,1 +1,9 @@
-<button type="button"><span>{{textButton}}</span><div></div></button>
+<button type="button">
+  @if (image !== '') { 
+    <div class="image-container">
+      <img [ngSrc]="image" priority fill>
+    </div> 
+  }
+  <span>{{textButton}}</span>
+  <div class="overlay"></div>
+</button>

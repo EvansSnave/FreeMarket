@@ -1,0 +1,36 @@
+@import '../../../../assets/styles/colors';
+
+.image-container {
+  height: 40vw;
+}
+
+.button-container {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+}
+
+h1 {
+  line-height: 40px;
+  letter-spacing: 4px;
+}
+
+p {
+  color: $last-font-color;
+  margin: 2vw 0;
+}
+
+section {
+  display: flex;
+  margin: 6vw 15vw;
+  align-items: center;
+  gap: 2vw;
+  & div {
+    width: 34vw;
+  }
+}
+
+.text-container > *{
+  text-align: center;
+}
+
