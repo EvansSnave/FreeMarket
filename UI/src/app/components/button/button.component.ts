@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'CustomButton',
@@ -11,6 +11,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ButtonComponent implements OnInit {
   @Input() textButton: string;
   @Input() image: string;
+  @Output() whenClick: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() {
     this.textButton = 'Default';
@@ -18,6 +19,10 @@ export class ButtonComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  onClick() {
+    this.whenClick.emit();
   }
 
 }
