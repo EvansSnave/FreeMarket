@@ -21,4 +21,8 @@ export class NavComponent implements OnInit {
     this.router.navigate(['/sign-up']);
   }
 
+  goToHome() {
+    this.router.navigate(['/']);
+  }
+
 }
